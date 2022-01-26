@@ -263,42 +263,41 @@ h1, h2 {
 
   &__button-play {
     img {
-      width: 252px * 0.7;
+      width: 300px * 0.7;
     }
   }
 
-  &__button-ios {
+  &__button-fdroid {
     img {
-      width: 200px * 0.7;
+      width: 300px * 0.7;
     }
   }
 
-  &__button-web {
-    margin-left: 12px;
+  &__button-amazon {
     img {
-      width: 157px;
+      width: 220px * 0.7;
     }
   }
 
   @media (max-width: 768px) {
     &__button-play {
       img {
-        width: 252px * 0.5;
+        width: 300px * 0.5;
       }
     }
   
-    &__button-ios {
+    &__button-fdroid {
       img {
-        width: 200px * 0.5;
+        width: 300px * 0.5;
       }
     }
 
-    &__button-web {
-      margin-left: 8px;
+    &__button-amazon {
       img {
-        width: 112px;
+        width: 220px * 0.5;
       }
     }
+  
   }
 
   &__section-title {

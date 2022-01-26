@@ -1,16 +1,14 @@
 app:
   screenshots: Screenshots
   description: Description
-  featured: Featured in
+  faq: Frequently Asked Questions
+  faq_long: You can find them here
 
 footer:
-  copyright: Made with ❤️ in Europe 🇪🇺 by <a href="https://www.sandoche.com" target="_blank">Sandoche</a>
+  copyright: Made with ❤️ in Germany by Stephan Reichholf - © 2022
   links:
     - title: Github
-      url: https://github.com/sandoche/Mobile-app-landingpage-template
+      url: https://github.com/sreichholf/dreamDroid
       target: _blank
-    - title: Donate
-      url: https://paypal.me/kanbanote
-      target: _blank
-    - title: Privacy
-      url: /privacy
+    - title: Home
+      url: /
