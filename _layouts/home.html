@@ -3,33 +3,33 @@ layout: default
 ---
 <header class="app__header container">
   <div class="app__logo-wrapper">
-    <img class="app__logo" src="/assets/images/appicon.png" alt="{{ site.data.app.name }} Icon">
+    <img class="app__logo" src="assets/images/appicon.png" alt="{{ site.data.app.name }} Icon">
   </div>
   <div class="app__infos">
     <h1 class="app__name">{{ site.data.app.name }}</h1>
     <p class="app__description">{{ site.data.app.description }}</p>
     <div class="app__buttons app__buttons--desktop">
       {% if site.data.app.fdroid != false %}
-      <a href="{{ site.data.app.fdroid }}" class="app__button-fdroid" target="_blank"><img src="/assets/images/fdroid-badge.png" alt="Get on F-Droid"></a>
+      <a href="{{ site.data.app.fdroid }}" class="app__button-fdroid" target="_blank"><img src="assets/images/fdroid-badge.png" alt="Get on F-Droid"></a>
       {% endif %}
       {% if site.data.app.android != false %}
-      <a href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="/assets/images/google-play-badge.png" alt="Get on Google Play"></a>
+      <a href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="assets/images/google-play-badge.png" alt="Get on Google Play"></a>
       {% endif %}
       {% if site.data.app.amazon != false %}
-      <a href="{{ site.data.app.amazon }}" class="app__button-amazon" target="_blank"><img src="/assets/images/amazon-badge.png" alt="Get on Amazon"></a>
+      <a href="{{ site.data.app.amazon }}" class="app__button-amazon" target="_blank"><img src="assets/images/amazon-badge.png" alt="Get on Amazon"></a>
       {% endif %}
     </div>
   </div>
 </header>
 <div class="app__buttons app__buttons--mobile container">
   {% if site.data.app.fdroid != false %}
-  <a href="{{ site.data.app.fdroid }}" class="app__button-fdroid" target="_blank"><img src="/assets/images/fdroid-badge.png" alt="Get on F-Droid"></a>
+  <a href="{{ site.data.app.fdroid }}" class="app__button-fdroid" target="_blank"><img src="assets/images/fdroid-badge.png" alt="Get on F-Droid"></a>
   {% endif %}
   {% if site.data.app.android != false %}
-  <a href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="/assets/images/google-play-badge.png" alt="Get on Google Play"></a>
+  <a href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="assets/images/google-play-badge.png" alt="Get on Google Play"></a>
   {% endif %}
   {% if site.data.app.amazon != false %}
-  <a href="{{ site.data.app.amazon }}" class="app__button-amazon" target="_blank"><img src="/assets/images/amazon-badge.png" alt="Get on Amazon"></a>
+  <a href="{{ site.data.app.amazon }}" class="app__button-amazon" target="_blank"><img src="assets/images/amazon-badge.png" alt="Get on Amazon"></a>
   {% endif %}
 </div>
 <section class="app__screenshots app__section">
@@ -39,8 +39,8 @@ layout: default
   <div class="app__screenshots-wrapper container-desktop">
     <div class="app__screenshots-list">
       {% for screenshot in site.data.app.screenshots %}
-      <a href="/assets/images/screenshots/{{ screenshot }}" class="lightbox">
-       <img src="/assets/images/screenshots/{{ screenshot }}" class="app__screenshot">
+      <a href="assets/images/screenshots/{{ screenshot }}" class="lightbox">
+       <img src="assets/images/screenshots/{{ screenshot }}" class="app__screenshot">
       </a>
       {% endfor %}
     </div>
