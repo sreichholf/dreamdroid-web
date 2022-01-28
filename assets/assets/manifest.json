@@ -1,7 +1,7 @@
 {
-  "name": "Mobile App Name",
-  "short_name": "Mobile App Name",
-  "description": "A super tagline for the mobile app",
+  "name": "dreamDroid",
+  "short_name": "dreamDroid",
+  "description": "Your Dreambox control and streaming App for Android",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
