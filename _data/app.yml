@@ -1,0 +1,26 @@
+name: dreamDroid
+description: Your Dreambox control and streaming app for Android
+full_description: "A remote control and video streaming app for dreamboxes
+<br><br>★ Unlimited connection profiles (number of dreambox you can control using dreamDroid)
+<br>★ Stream your favorite channel or recording
+<br>★ See what's currently running
+<br>★ Browse channels and their EPG
+<br>★ Manage timers and set them using the EPG or create new timers manually
+<br>★ Search the EPG
+<br>★ Browse recorded movies
+<br>★ Use the built-in Signal Meter with accoustic feedback to adjust your Dish or check your receiption quality
+<br>★ Send Messages
+<br>★ Use one of two Virtual Remote Controls (Simple and Full)
+<br>★ Make a Screenshot and save it
+<br>★ Set a shutdown timer"
+android: https://play.google.com/store/apps/details?id=net.reichholf.dreamdroid
+fdroid: https://f-droid.org/en/packages/net.reichholf.dreamdroid
+iOS: false
+web: false
+screenshots:
+  - 1.png
+  - 2.png
+  - 3.png
+  - 4.png
+  - 5.png
+  - 6.png
