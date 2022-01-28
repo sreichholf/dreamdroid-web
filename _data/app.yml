@@ -15,6 +15,7 @@ full_description: "A remote control and video streaming app for dreamboxes
 <br>★ Set a shutdown timer"
 android: https://play.google.com/store/apps/details?id=net.reichholf.dreamdroid
 fdroid: https://f-droid.org/en/packages/net.reichholf.dreamdroid
+amazon: https://www.amazon.de/gp/product/B01BRHO7YO
 iOS: false
 web: false
 screenshots:
