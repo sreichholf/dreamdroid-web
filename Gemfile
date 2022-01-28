@@ -16,12 +16,12 @@ gem "jekyll", "3.9.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+   gem "kramdown-parser-gfm"
    gem "jekyll-feed"
    gem 'jekyll-sitemap'
    gem 'jekyll-seo-tag'
    gem 'octopress-minify-html'
    gem 'amp-jekyll'
-   gem 'github-pages'
    gem 'jekyll-remote-theme'
 end
 
