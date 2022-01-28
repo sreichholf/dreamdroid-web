@@ -7,10 +7,9 @@ app:
 footer:
   copyright: Made with ❤️ in Germany by Stephan Reichholf - © 2022
   links:
-    - title: Github
-      url: https://github.com/sreichholf/dreamDroid
-      target: _blank
-    - title: Privacy Policy
-      url: /privacy
     - title: Home
       url: /
+    - title: FAQ
+      url: /faq
+    - title: Privacy Policy
+      url: /privacy
