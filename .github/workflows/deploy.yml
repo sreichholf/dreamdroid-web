@@ -1,0 +1,35 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Install ruby
+        run:
+          sudo apt install ruby-full
+
+      - name: Install bundler
+        run:
+          sudo gem install bundler:1.17.2
+
+      - name: NPM install
+        run:
+          npm ci
+
+      - name: Bundle install
+        run:
+          bundle install
+
+      - name: Build 🔧
+        run: 
+          npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        with:
+          branch: gh-pages
+          folder: .
